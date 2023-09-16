@@ -25,7 +25,7 @@ if ($row = mysqli_fetch_assoc($showQuery)) {
 
 <h2>Your Tags: <?php echo $traineeTags; ?></h2>
 
-<!-- Add a form to initiate matchmaking -->
+
 <form action="matchmaking_result.php" method="post">
     <input type="hidden" name="trainee_id" value="<?php echo $traineeId; ?>">
     <button type="submit">Find Trainer</button>
