@@ -11,7 +11,7 @@ include "db.php";
 
 <?php
 
-$traineeId = 3232;
+$traineeId = 1111;
 
 $query = "SELECT tags FROM trainee WHERE trainee_id = $traineeId";
 $showQuery = mysqli_query($connection, $query);
